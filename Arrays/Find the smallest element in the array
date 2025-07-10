@@ -1,0 +1,25 @@
+import java.util.*;
+public class smal {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter n:");
+        int n=sc.nextInt();
+        int[] arr=new int[n];
+        for(int i=0;i<n;i++){
+            System.out.print("The "+i+"th element is ");
+            arr[i]=sc.nextInt();
+        }
+        System.out.println("The array is"+Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.println("The Smallest element is "+arr[0]);
+
+}
+}
+
+OUTPUT:
+Enter n:3
+The 0th element is 1
+The 1th element is 1
+The 2th element is 2
+The array is[1, 1, 2]
+The Smallest element is 1
