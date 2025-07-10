@@ -18,10 +18,20 @@ public class evenorodd {
                 c1++;
             }
         }
-        System.out.println("The Count of even numbers is "+count);
-        System.out.println("The Count of odd numbers is "+c1);
+        System.out.println("The Count of even numbers: "+count);
+        System.out.println("The Count of odd numbers: "+c1);
 
 
     
 }
 }
+
+OUTPUT:
+Enter n:3
+The 0th element is 78
+The 1th element is 6
+The 2th element is 123
+The array is[78, 6, 123]
+The Count of even numbers: 2
+The Count of odd numbers: 1
+
