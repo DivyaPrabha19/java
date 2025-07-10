@@ -12,3 +12,12 @@ public class Main {
     }
     
 }
+
+OUTPUT:
+Enter n:5
+The 0th element is 1
+The 1th element is 2
+The 2th element is 3
+The 3th element is 4
+The 4th element is 5
+The array is[1, 2, 3, 4, 5]
